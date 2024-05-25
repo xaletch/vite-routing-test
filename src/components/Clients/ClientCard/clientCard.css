@@ -1,0 +1,48 @@
+.clients__card {
+  border-radius: 10px;
+  background: var(--ffffff);
+}
+.clients__card-inner {
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+}
+.clients__card-item {
+  font-weight: 500;
+  line-height: 18px;
+}
+.card__item-swap {
+  padding-left: 30px;
+}
+.clients__card-integration {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+.clients__integrations-item {
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.integration__item-name {
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.clients__card-control {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.clients__card-control-button {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

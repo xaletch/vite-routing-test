@@ -1,0 +1,46 @@
+.ui-input__name {
+  display: flex;
+  align-items: center;
+  color: var(--282735);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  gap: 4px;
+  cursor: default;
+}
+
+.ui-input__name span {
+  color: var(--fd4141);
+  user-select: none;
+}
+
+.ui-input {
+  margin-top: 4px;
+  position: relative;
+}
+
+.ui-input__field {
+  width: 100%;
+  height: 45px;
+  padding: 0 20px;
+  padding-right: 46px;
+  border: 1px solid rgba(40, 39, 53, 0.2);
+  border-radius: 10px;
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.ui-input__field.require {
+  border-color: rgb(239, 44, 44);
+}
+.ui-input__button {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50%);
+  cursor: pointer;
+}

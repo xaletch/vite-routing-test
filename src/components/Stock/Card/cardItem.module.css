@@ -1,0 +1,118 @@
+.card {
+  width: 100%;
+  background: var(--ffffff);
+  border-radius: 10px;
+  position: relative;
+}
+.card__hidden {
+  display: none;
+}
+.card__wrapper_grid {
+  display: flex;
+  gap: 20px;
+}
+.card__wrapper_grid {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card__content_grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card__content_table {
+  padding: 15px 20px;
+  display: grid;
+  grid-template-columns: 24px 37px 144px 144px 320px 95px 95px 142px 144px 142px 142px;
+  align-items: center;
+  gap: 20px;
+}
+.card__item_title {
+  width: 60px;
+  display: none;
+}
+.card__content_grid .card__item_title {
+  display: block;
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  opacity: 0.5;
+}
+.card__content_grid .card__content_item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.card__item_name {
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.card__item_name span {
+  color: var(--282735);
+  font-size: 13px;
+  line-height: 16px;
+}
+.card__item_name_box {
+  color: var(--8653d4);
+}
+.card__item_button {
+  width: 95px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--ffffff);
+  font-size: 13px;
+  font-weight: 700;
+  user-select: none;
+}
+.card__item_none {
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.card__item_button_yellow {
+  background: var(--f8b712);
+}
+.card__item_button_orange {
+  background: var(--ff7701);
+}
+.card__item_button_green {
+  background: var(--54b800);
+}
+.card__selected {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(40, 39, 53, 0.2);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.card__selected_grid {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.card__selected_checkbox_selected {
+  background: var(--8653d4);
+  border: none;
+}
+.card__selected_checked {
+  display: flex;
+}
+
+@media screen and (max-width: 1840px) {
+  .card__content_table {
+    grid-template-columns: 24px 37px 1fr 144px 280px 95px 95px 1fr 1fr 1fr 1fr;
+  }
+}

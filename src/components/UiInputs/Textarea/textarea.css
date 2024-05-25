@@ -1,0 +1,30 @@
+.ui-textarea__name {
+  color: var(--282735);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+}
+.ui-textarea__field {
+  margin-top: 4px;
+  width: 100%;
+  min-height: 90px;
+  resize: vertical;
+  padding: 13px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(40, 39, 53, 0.2);
+  background: var(--ffffff);
+}
+.ui-textarea__warning {
+  margin-top: 14px;
+}
+.ui-textarea__warning-inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.ui-textarea__warning-text {
+  color: var(--282735);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+}

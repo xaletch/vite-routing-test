@@ -1,0 +1,14 @@
+.order__item_inner {
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(5, 70px);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.order__item_text {
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}

@@ -1,0 +1,36 @@
+.message-item {
+  border-radius: 10px;
+  background: var(--ffffff);
+}
+.message__item-inner {
+  padding: 10px 20px;
+}
+.message__item-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.message__item-name {
+  color: var(--ff7701);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+}
+.message__item-date {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.message__item-date span {
+  color: var(--282735);
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0.5;
+}
+.message__item-text {
+  margin-top: 2px;
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}

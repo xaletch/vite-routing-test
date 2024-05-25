@@ -1,0 +1,11 @@
+.notifications__wrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.notifications__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

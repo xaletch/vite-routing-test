@@ -1,0 +1,29 @@
+.pagination__items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.pagination__item {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ffffff);
+  cursor: pointer;
+}
+.pagination__item.selected {
+  background: var(--8653d4);
+}
+.pagination__item-num {
+  text-align: center;
+  color: var(--8653d4);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+  user-select: none;
+}
+.pagination__item.selected .pagination__item-num {
+  color: var(--ffffff);
+}

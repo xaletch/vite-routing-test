@@ -1,0 +1,9 @@
+.stock__head-button {
+  padding: 13px 36px;
+  border-radius: 10px;
+  text-align: center;
+  color: var(--ffffff);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+}

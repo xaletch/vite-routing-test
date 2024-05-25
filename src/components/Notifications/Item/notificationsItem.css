@@ -1,0 +1,47 @@
+.notification__content-item {
+  border-radius: 10px;
+  background: var(--ffffff);
+}
+.notification__items-inner {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.notification__item-head {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  gap: 10px;
+}
+.item__name {
+  color: var(--ff7701);
+}
+.item__date {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.item__date span {
+  color: var(--282735);
+  opacity: 0.5;
+}
+.item__text {
+  margin-top: 2px;
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.notification__control-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.item__control-button {
+  display: flex;
+  cursor: pointer;
+}

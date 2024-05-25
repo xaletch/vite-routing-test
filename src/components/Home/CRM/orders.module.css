@@ -1,0 +1,19 @@
+.order_content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.order__content_head {
+  display: grid;
+  grid-template-columns: repeat(5, 70px);
+  gap: 20px;
+  justify-content: center;
+}
+.head_item {
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  opacity: 0.5;
+  cursor: default;
+}

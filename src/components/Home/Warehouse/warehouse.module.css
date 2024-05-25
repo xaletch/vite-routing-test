@@ -1,0 +1,30 @@
+.warehouse__content_inner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.warehouse_head {
+  display: grid;
+  grid-template-columns: 37px repeat(7, 70px) 30px 70px;
+  gap: 10px;
+}
+.warehouse__head_item {
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  opacity: 0.5;
+  cursor: default;
+}
+.warehouse__content_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1800px) {
+  .warehouse_head {
+    grid-template-columns: 30px repeat(7, 60px) 30px 60px;
+    gap: 10px;
+  }
+}

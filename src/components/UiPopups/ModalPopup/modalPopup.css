@@ -1,0 +1,78 @@
+.modal-popup {
+  width: 100%;
+  position: relative;
+}
+.modal-popup__selected {
+  height: 45px;
+  padding: 13px 20px;
+  border: 1px solid rgba(40, 39, 53, 0.2);
+  border-radius: 10px;
+  background: var(--ffffff);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  cursor: pointer;
+}
+.modal-popup__selected.require {
+  border-color: rgb(239, 44, 44);
+}
+.modal-popup__selected-text {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  line-height: 16px;
+}
+.modal-popup__list {
+  margin-top: 1px;
+  padding: 15px 10px;
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px 0 rgba(40, 39, 53, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 3;
+}
+.modal-popup__list.open {
+  opacity: 1;
+  pointer-events: all;
+}
+.modal-popup__item {
+  padding: 10px 10px;
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--282735);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.modal-popup__item:hover {
+  background: var(--calendar_border);
+}
+.modal-popup__item-line {
+  width: auto;
+  height: 1px;
+  background: var(--f1f0fe);
+}
+.modal-popup__name {
+  display: flex;
+  align-items: center;
+  color: var(--282735);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  gap: 4px;
+  cursor: default;
+}
+.modal-popup__name span {
+  color: var(--fd4141);
+  user-select: none;
+}
+.popup-name {
+  margin-top: 4px;
+}

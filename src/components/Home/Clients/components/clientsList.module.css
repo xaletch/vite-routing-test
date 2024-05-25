@@ -1,0 +1,38 @@
+.card__content_inner {
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 127px) 150px;
+  align-items: center;
+  gap: 10px;
+}
+.card_name {
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.card_integration {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.card__integration_name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.shortcut_button {
+  grid-column: 4 / 5 span;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+.button {
+  display: flex;
+  align-items: center;
+}

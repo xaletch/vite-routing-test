@@ -1,0 +1,18 @@
+.setup__demo-button {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  background: var(--ffffff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.setup__demo-button.active {
+  background: var(--282735);
+}
+.setup__demo-button.active svg path {
+  stroke: #fff;
+}
+.setup__demo-button svg path {
+  stroke: #282735;
+}

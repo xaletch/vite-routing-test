@@ -1,0 +1,18 @@
+.clients_card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.clients__card_head {
+  display: grid;
+  grid-template-columns: repeat(4, 127px) 150px;
+  gap: 10px;
+}
+.head__card_item {
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  opacity: 0.5;
+  cursor: default;
+}

@@ -1,0 +1,26 @@
+.settings__wrapper {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.settings__card {
+  height: 146px;
+  background: var(--ffffff);
+  border-radius: 10px;
+}
+.settings__card-inner {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.settings__card-name {
+  text-align: center;
+  color: var(--282735);
+  font-size: 18px;
+  font-weight: 400;
+}

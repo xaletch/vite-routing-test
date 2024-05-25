@@ -1,0 +1,43 @@
+.card__head_info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.green {
+  background: var(--eef8e5);
+}
+.orange {
+  background: var(--fff1e6);
+}
+.purple {
+  background: var(--f1f0fe);
+}
+.card__head_item {
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+}
+.card__item_inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card__item_name {
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 500;
+}
+span {
+  display: flex;
+}
+.card__item_count {
+  color: var(--282735);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.cards_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}

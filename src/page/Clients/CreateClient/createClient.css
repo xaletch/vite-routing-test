@@ -1,0 +1,58 @@
+.create-client__form-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.create-client__form-block {
+  border-radius: 10px;
+  background: var(--ffffff);
+}
+.form__block-inner {
+  padding: 20px;
+}
+.create-client__form-block.data-company {
+  grid-column: 1 / 2 span;
+}
+.create-client__form-block.bank-details {
+  grid-column: 1 / 2 span;
+}
+.form__block-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form__head-name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.form__head-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.form__head-button-checkbox {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(40, 39, 53, 0.2);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.form__head-button-checkbox.active {
+  background: var(--8653d4);
+}
+.form__head-button span {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  cursor: pointer;
+  user-select: none;
+}
+.form__content-bottom {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,23 @@
+.card__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
+.card__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__head_name {
+  color: var(--282735);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.card__head_link {
+  color: var(--8653d4);
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}

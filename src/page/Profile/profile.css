@@ -1,0 +1,79 @@
+.profile__wrapper {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background: var(--ffffff);
+}
+.profile__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.profile__form-inputs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.input__wrapper {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+}
+.input__name {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-weight: 500;
+  font-size: 13px;
+  color: var(--282735);
+}
+.input__name span {
+  display: flex;
+  align-items: center;
+  color: var(--fd4141);
+}
+.input__wrapper input {
+  width: 100%;
+  height: 45px;
+  padding: 0 14px;
+  padding-right: 46px;
+  border: 1px solid rgba(40, 39, 53, 0.2);
+  border-radius: 10px;
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.input_block {
+  position: relative;
+}
+.input__icon {
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+}
+.profile__form-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile__button {
+  height: 45px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+}
+.profile__button-cancel {
+  color: var(--8653d4);
+  background: var(--f1f0fe);
+}
+.profile__button-save {
+  color: var(--ffffff);
+  background: var(--8653d4);
+}

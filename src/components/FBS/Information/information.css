@@ -1,0 +1,24 @@
+.fbs__information-card {
+  border-radius: 10px;
+  background: var(--ffffff);
+}
+.fbs__information-card-inner {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.fbs__information-card-name {
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.fbs__information-card-count {
+  color: var(--282735);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  user-select: none;
+}

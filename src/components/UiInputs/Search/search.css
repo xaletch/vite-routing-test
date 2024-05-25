@@ -1,0 +1,25 @@
+.search {
+  width: 400px;
+  position: relative;
+}
+.search__input {
+  width: 100%;
+  padding: 14px 45px 14px 20px;
+  border: 1px solid rgba(40, 39, 53, 0.2);
+  border-radius: 10px;
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.search__input::placeholder {
+  opacity: 0.5;
+}
+.search__icon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  opacity: 0.5;
+  transform: translateY(-50%);
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.button_work-scheme {
+  height: 45px;
+  padding: 12px 20px;
+  border: 1px solid rgba(40, 39, 53, 0.2);
+  border-radius: 10px;
+  background: var(--ffffff);
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+  gap: 6px;
+}
+.button_work-scheme.selected {
+  border-color: transparent;
+  background: var(--f1f0fe);
+  color: var(--8653d4);
+}
+.button-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

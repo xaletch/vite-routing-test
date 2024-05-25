@@ -1,0 +1,52 @@
+.header {
+  width: 100%;
+  background: var(--ffffff);
+}
+.header_wrapper {
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_user {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header_userImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid var(--8653d4);
+  background: #cccccc;
+}
+.header_user_jobTitle {
+  color: var(--282735);
+  font-size: 14px;
+  line-height: 17px;
+}
+.header_userName {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header_user_name {
+  color: var(--282735);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.header__user_buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header__buttons_item {
+  display: flex;
+  opacity: 0.5;
+}
+.header_buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

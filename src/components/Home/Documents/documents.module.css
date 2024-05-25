@@ -1,0 +1,19 @@
+.documents__card_head {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 270px;
+  align-items: center;
+}
+.documents__card_head p {
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  opacity: 0.5;
+  cursor: default;
+}
+.documents__people {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

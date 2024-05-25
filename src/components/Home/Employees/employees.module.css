@@ -1,0 +1,22 @@
+.card_inner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card__inner_head {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 100px;
+}
+.card__head_item {
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  opacity: 0.5;
+  cursor: default;
+}
+.card__inner_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

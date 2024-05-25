@@ -1,0 +1,39 @@
+.subscription__wrapper {
+  margin-top: 30px;
+}
+.subscription__wrapper-text {
+  color: var(--282735);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.subscription__balance-card {
+  width: 316px;
+  margin-top: 30px;
+  background: var(--ffffff);
+  border-radius: 10px;
+}
+.subscription__card-inner {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.subscription__card-title {
+  color: var(--282735);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.subscription__balance {
+  padding: 10px;
+  background: var(--f1f0fe);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--282735);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+}

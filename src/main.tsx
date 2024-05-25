@@ -6,6 +6,20 @@ import App from "./App";
 import { Home } from "./routComponents/Home";
 import { Settings } from "./routComponents/Settings";
 import { Profile } from "./routComponents/Profile";
+import { store } from "./redux/store";
+import { Provider } from "react-redux";
+import { Calendar } from "./page/Calendar/Calendar";
+import { Stock } from "./page/Stock/Stock";
+import { StockNominal } from "./page/Stock/Nominal/Nominal";
+import { Fbs } from "./page/FBS/Fbs";
+import { CallCenter } from "./page/CallCenter/CallCenter";
+import { Clients } from "./page/Clients/Clients";
+import { CreateClient } from "./page/Clients/CreateClient/CreateClient";
+import { MessageHistory } from "./page/Clients/MessageHistory/MessageHistory";
+import { Documents } from "./page/Documents/Documents";
+import { Employees } from "./page/Employees/Employees";
+import { CRM } from "./page/CRM/CRM";
+import { DBS } from "./page/DBS/DBS";
 
 const router = createBrowserRouter([
   {
@@ -17,19 +31,76 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "settings",
-        element: <Settings />,
+        path: "calendar",
+        element: <Calendar />,
+      },
+      {
+        path: "stock",
+        element: <Stock />,
+      },
+      {
+        path: "stock/nominal",
+        element: <StockNominal />,
+      },
+      {
+        path: "fbs",
+        element: <Fbs />,
+      },
+      {
+        path: "call-center",
+        element: <CallCenter />,
+      },
+      {
+        path: "clients",
+        element: <Clients />,
+      },
+      {
+        path: "clients/create",
+        element: <CreateClient />,
+      },
+      {
+        path: "clients/message-history",
+        element: <MessageHistory />,
+      },
+      {
+        path: "documents",
+        element: <Documents />,
+      },
+      {
+        path: "employees",
+        element: <Employees />,
+      },
+      {
+        path: "crm",
+        element: <CRM />,
+      },
+      {
+        path: "dbs",
+        element: <DBS />,
       },
       {
         path: "profile",
         element: <Profile />,
       },
+      {
+        path: "settings",
+        element: <Settings />,
+      },
+      {
+        path: "subscription",
+        element: <Subscription />,
+      },
+      {
+        path: "notifications",
+        element: <Notifications />,
+      },
     ],
   },
 ]);
-
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Provider store={store}>
+      <RouterProvider router={router}></RouterProvider>
+    </Provider>
   </React.StrictMode>
 );
