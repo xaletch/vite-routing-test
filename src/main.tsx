@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App";
 import { store } from "./redux/store";
 import { Provider } from "react-redux";
 import { Calendar } from "./page/Calendar/Calendar";
@@ -22,6 +21,7 @@ import { Notifications } from "./page/Notifications/Notifications";
 import { Home } from "./page/Home/Home";
 import { Profile } from "./page/Profile/Profile";
 import { Settings } from "./page/Settings/Settings";
+import App from "./app/App";
 
 const router = createBrowserRouter([
   {
