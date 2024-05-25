@@ -1,0 +1,45 @@
+.home__grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.home__bottom_grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.home__grid_card {
+  padding: 20px;
+  background: #fff;
+  color: #282735;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* MY COMPANY */
+.card__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__head p {
+  color: #282735;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.card__head span {
+  color: #8653d4;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/*  */
