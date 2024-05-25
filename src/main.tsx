@@ -20,6 +20,8 @@ import { Documents } from "./page/Documents/Documents";
 import { Employees } from "./page/Employees/Employees";
 import { CRM } from "./page/CRM/CRM";
 import { DBS } from "./page/DBS/DBS";
+import { Subscription } from "./page/Subscription/Subscription";
+import { Notifications } from "./page/Notifications/Notifications";
 
 const router = createBrowserRouter([
   {
