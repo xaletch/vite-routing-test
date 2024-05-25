@@ -3,9 +3,6 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
-import { Home } from "./routComponents/Home";
-import { Settings } from "./routComponents/Settings";
-import { Profile } from "./routComponents/Profile";
 import { store } from "./redux/store";
 import { Provider } from "react-redux";
 import { Calendar } from "./page/Calendar/Calendar";
@@ -22,6 +19,9 @@ import { CRM } from "./page/CRM/CRM";
 import { DBS } from "./page/DBS/DBS";
 import { Subscription } from "./page/Subscription/Subscription";
 import { Notifications } from "./page/Notifications/Notifications";
+import { Home } from "./page/Home/Home";
+import { Profile } from "./page/Profile/Profile";
+import { Settings } from "./page/Settings/Settings";
 
 const router = createBrowserRouter([
   {
